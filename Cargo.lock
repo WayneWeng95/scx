@@ -3764,6 +3764,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "scx_debugfifo"
+version = "1.0.0"
+dependencies = [
+ "anyhow",
+ "ctrlc",
+ "libbpf-rs",
+ "libc",
+ "plain",
+ "procfs",
+ "scx_cargo",
+ "scx_rustland_core",
+ "scx_utils",
+]
+
+[[package]]
 name = "scx_flash"
 version = "1.1.0"
 dependencies = [
